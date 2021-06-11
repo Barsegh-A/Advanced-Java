@@ -3,7 +3,7 @@ package Lesson2;
 public class Test {
 
     public static void main(String[] args) {
-        MyArrayList<Integer> s = new MyArrayList<>();
+        MyList<Integer> s = new MyLinkedList<>();
 
         s.add(4);
         s.add(64);
