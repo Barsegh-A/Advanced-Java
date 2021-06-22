@@ -36,14 +36,6 @@ public class SizeCalculator implements Runnable{
         calculateSize(folder);
     }
 
-    public String getPath() {
-        return path;
-    }
-
-    public void setPath(String path) {
-        this.path = path;
-    }
-
     public long getSize() {
         return size;
     }
