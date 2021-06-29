@@ -1,11 +1,7 @@
 package Homework5;
 
-import Homework3.Timer;
-
 import javax.swing.*;
 import java.awt.*;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
 
 public class TimerView {
     private JFrame frame;
@@ -15,7 +11,6 @@ public class TimerView {
     private JLabel timerLabel;
     private int minutes;
     private int seconds;
-    private Timer timer;
     private Thread timerThread;
 
     public TimerView(){
@@ -29,9 +24,9 @@ public class TimerView {
         frame.add(secondsTextField);
         frame.add(timerLabel);
 
-        frame.setSize(500,500);//400 width and 500 height
-        frame.setLayout(null);//using no layout managers
-        frame.setVisible(true);//making the frame visible
+        frame.setSize(500,500);
+        frame.setLayout(null);
+        frame.setVisible(true);
     }
 
 
