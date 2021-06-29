@@ -88,7 +88,6 @@ public class TimerView {
                 sb.append(seconds);
                 seconds--;
                 timerLabel.setText(sb.toString());
-                System.out.println(sb);
                 try {
                     Thread.sleep(1000);
                 } catch (InterruptedException ex) {
