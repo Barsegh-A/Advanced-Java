@@ -10,7 +10,7 @@ public class ConnectionConfig {
 
     }
 
-    public static synchronized ConnectionConfig getInstance(){
+    public static ConnectionConfig getInstance(){
         if(instance == null){
             synchronized (ConnectionConfig.class){
                 if(instance == null){
